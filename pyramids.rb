@@ -6,4 +6,4 @@ size = gets.chomp
 while n <= size.to_i && size.to_i <= 25
     puts ("#" * n).rjust(25)
     n += 1
-end`
+end
